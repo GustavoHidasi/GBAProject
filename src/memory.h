@@ -13,6 +13,7 @@ public:
   void write8(uint32_t addr, uint8_t value);
   void write16(uint32_t addr, uint16_t value);
   void write32(uint32_t addr, uint32_t value);
+  
 private:
   std::vector<uint8_t> data;
 };
